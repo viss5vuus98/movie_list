@@ -1,0 +1,71 @@
+body {
+  background-color: #202427;
+}
+
+.movie-page-body {
+  margin: auto;
+  max-width: 70%;
+  height: 550px;
+  display: flex;
+}
+
+
+h2, p, h5, h3{
+  color: #f6f7f8;
+}
+.movie-image{
+  flex: 50% 0 1;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+img {
+  margin-top: 30px;
+  margin-left: 20px;
+  max-height: 90%;
+  border:1px solid #e0e0e0;
+}
+.movie-info {
+  margin-top: 30px;
+}
+
+
+
+
+.rander-actor-list {
+  display: flex;
+}
+.btn-favorite {
+  position: relative;
+  left: 18vw;
+  top: 7.5vw;
+  width: 30%;
+  height: 10%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.actor-body {
+  margin: 0 auto;
+  width: 60%;
+  flex: 8% 0 1;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.actor-list-image img{
+  max-width: 7vw;
+  max-height: 9vw;
+  border-radius: 18px;
+  margin-top: 3px;
+}
+.actor-name {
+  text-align: center;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 700;
+}

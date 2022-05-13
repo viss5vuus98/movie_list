@@ -1,0 +1,22 @@
+body {
+  background-color: #202427;
+}
+#data-panel {
+  display: flex;
+  justify-content: center;
+}
+.movie-card{
+  flex: 15% 0 1;
+}
+.card-body{
+  height: 5vw;
+}
+.movie-card h5{
+  font-size: 3px;
+}
+.cord {
+  border: 1px solid #e0e0e0;
+}
+.card img {
+  border: 1px solid #e0e0e0;
+}
